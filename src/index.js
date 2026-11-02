@@ -1,5 +1,5 @@
 import { createApp } from 'vue';
-import { createMemoryHistory, createWebHashHistory, createWebHistory, createRouter } from 'vue-router';
+import { createWebHistory, createRouter } from 'vue-router';
 
 import ToDo from './pages/todo.vue';
 import Modals from './pages/modals.vue';
