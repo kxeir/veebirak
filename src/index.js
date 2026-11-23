@@ -5,6 +5,8 @@ import ToDo from './pages/todo.vue';
 import Modals from './pages/modals.vue';
 import Buttons from './pages/buttons.vue';
 import Messages from './pages/messages.vue';
+import ChuckNorris from './pages/ChuckNorris.vue';
+
 import './style.scss';
 
 const routes = [
@@ -12,6 +14,7 @@ const routes = [
   { path: '/modals', component: Modals, name: 'Modals'},
   { path: '/buttons', component: Buttons, name: 'Buttons'},
   { path: '/messages', component: Messages, name: 'Messages'},
+    { path: '/chuck', component: ChuckNorris, name: 'Chuck Norris'},
 ];
 
 export const router = createRouter({
