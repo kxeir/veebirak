@@ -14,7 +14,7 @@ const routes = [
   { path: '/modals', component: Modals, name: 'Modals'},
   { path: '/buttons', component: Buttons, name: 'Buttons'},
   { path: '/messages', component: Messages, name: 'Messages'},
-    { path: '/chuck', component: ChuckNorris, name: 'Chuck Norris'},
+  { path: '/chuck', component: ChuckNorris, name: 'Chuck Norris'},
 ];
 
 export const router = createRouter({

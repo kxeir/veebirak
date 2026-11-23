@@ -6,7 +6,9 @@ import Modal from './components/modal.vue';
 
 <template>
   <RouterTabs></RouterTabs>
+  <Suspense>
   <RouterView />
+  </Suspense>
 </template>
 
 <style></style>
